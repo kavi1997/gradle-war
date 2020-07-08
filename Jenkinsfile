@@ -9,7 +9,7 @@ pipeline {
             {
                 steps
                  { 
-                    sh 'gradle clean install'
+                    sh 'gradle clean build'
                  }
             }
       }
